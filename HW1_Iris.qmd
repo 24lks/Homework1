@@ -1,0 +1,37 @@
+---
+title: "HW1"
+format: html
+editor: visual
+---
+
+## What do you think being a data scientist is about?
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## What differences/similarities do you see between data scientists and statisticians?
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+## How do you view yourself in relation to these two areas?
+
+## Load the dataset
+
+Here we load the `iris` dataset, which contains measurements of flowers.
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+## Summarize the data
+
+Now we compute summary statistics to see the overall structure of the dataset.
+
+```{r}
+y <- density(iris$Petal.Width)
+class(y)
+typeof(y)
+str(y)
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "HW1_Iris.html",
+    "href": "HW1_Iris.html",
+    "title": "HW1",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "HW1_Iris.html#what-do-you-think-being-a-data-scientist-is-about",
+    "href": "HW1_Iris.html#what-do-you-think-being-a-data-scientist-is-about",
+    "title": "HW1",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "HW1_Iris.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "href": "HW1_Iris.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "title": "HW1",
+    "section": "What differences/similarities do you see between data scientists and statisticians?",
+    "text": "What differences/similarities do you see between data scientists and statisticians?\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:"
+  },
+  {
+    "objectID": "HW1_Iris.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "href": "HW1_Iris.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "title": "HW1",
+    "section": "How do you view yourself in relation to these two areas?",
+    "text": "How do you view yourself in relation to these two areas?"
+  },
+  {
+    "objectID": "HW1_Iris.html#load-the-dataset",
+    "href": "HW1_Iris.html#load-the-dataset",
+    "title": "HW1",
+    "section": "Load the dataset",
+    "text": "Load the dataset\nHere we load the iris dataset, which contains measurements of flowers.\n\ny &lt;- density(iris$Petal.Width)"
+  },
+  {
+    "objectID": "HW1_Iris.html#summarize-the-data",
+    "href": "HW1_Iris.html#summarize-the-data",
+    "title": "HW1",
+    "section": "Summarize the data",
+    "text": "Summarize the data\nNow we compute summary statistics to see the overall structure of the dataset.\n\ny &lt;- density(iris$Petal.Width)\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  }
+]
