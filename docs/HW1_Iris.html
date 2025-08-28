@@ -135,25 +135,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="what-do-you-think-being-a-data-scientist-is-about" class="level2">
 <h2 class="anchored" data-anchor-id="what-do-you-think-being-a-data-scientist-is-about">What do you think being a data scientist is about?</h2>
-<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
+<p>Data science is a discipline that allows you to take raw data from many different situations and transform that data into communicable knowledge.</p>
 </section>
 <section id="what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians" class="level2">
 <h2 class="anchored" data-anchor-id="what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians">What differences/similarities do you see between data scientists and statisticians?</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
+<p>Data scientists study structured data. Statisticians use mathematical and statistical methods to collect and interpret data. These careers are similar in their need for expertise in statistical analysis, knowledge of programming languages, and mathematical knowledge. They differ in their scope. Data science is new, and highly interdisciplinary. Statistics is much older, and while statisticians use technology they are also more likely to use mathematical concepts in their work. Data scientists are also high in demand in industry, where statisticians are more likely to be employed in academic, government or research positions. There are also differences in the focus of their work and tools they use to complete it.</p>
 </section>
 <section id="how-do-you-view-yourself-in-relation-to-these-two-areas" class="level2">
 <h2 class="anchored" data-anchor-id="how-do-you-view-yourself-in-relation-to-these-two-areas">How do you view yourself in relation to these two areas?</h2>
+<p>I identify more as a mathematician than data scientist or statistician. However, I also love statistics, and the evolving nature of data science has made me interested in learning more about it.</p>
 </section>
 <section id="load-the-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="load-the-dataset">Load the dataset</h2>
-<p>Here we load the <code>iris</code> dataset, which contains measurements of flowers.</p>
+<h2 class="anchored" data-anchor-id="load-the-dataset">Load the Dataset</h2>
+<p>Here we load the <code>iris</code> data set, which contains measurements of flowers.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">density</span>(iris<span class="sc">$</span>Petal.Width)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="summarize-the-data" class="level2">
-<h2 class="anchored" data-anchor-id="summarize-the-data">Summarize the data</h2>
-<p>Now we compute summary statistics to see the overall structure of the dataset.</p>
+<h2 class="anchored" data-anchor-id="summarize-the-data">Summarize the Data</h2>
+<p>Now we compute summary statistics to see the overall structure of the data set.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">density</span>(iris<span class="sc">$</span>Petal.Width)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -178,7 +179,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  - attr(*, "class")= chr "density"</code></pre>
 </div>
 </div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
+</section>
+<section id="plot-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="plot-of-data">Plot of Data</h2>
+<p>Here we plot the <code>iris</code> data set.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="HW1_Iris_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 </section>

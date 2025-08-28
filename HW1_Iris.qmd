@@ -6,25 +6,27 @@ editor: visual
 
 ## What do you think being a data scientist is about?
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Data science is a discipline that allows you to take raw data from many different situations and transform that data into communicable knowledge.
 
 ## What differences/similarities do you see between data scientists and statisticians?
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Data scientists study structured data. Statisticians use mathematical and statistical methods to collect and interpret data. These careers are similar in their need for expertise in statistical analysis, knowledge of programming languages, and mathematical knowledge. They differ in their scope. Data science is new, and highly interdisciplinary. Statistics is much older, and while statisticians use technology they are also more likely to use mathematical concepts in their work. Data scientists are also high in demand in industry, where statisticians are more likely to be employed in academic, government or research positions. There are also differences in the focus of their work and tools they use to complete it.
 
 ## How do you view yourself in relation to these two areas?
 
-## Load the dataset
+I identify more as a mathematician than data scientist or statistician. However, I also love statistics, and the evolving nature of data science has made me interested in learning more about it.
 
-Here we load the `iris` dataset, which contains measurements of flowers.
+## Load the Dataset
+
+Here we load the `iris` data set, which contains measurements of flowers.
 
 ```{r}
 y <- density(iris$Petal.Width)
 ```
 
-## Summarize the data
+## Summarize the Data
 
-Now we compute summary statistics to see the overall structure of the dataset.
+Now we compute summary statistics to see the overall structure of the data set.
 
 ```{r}
 y <- density(iris$Petal.Width)
@@ -34,4 +36,12 @@ str(y)
 
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+## Plot of Data
+
+Here we plot the `iris` data set.
+
+```{r, echo=FALSE}
+y <- density(iris$Petal.Width)
+plot(y)
+
+```
